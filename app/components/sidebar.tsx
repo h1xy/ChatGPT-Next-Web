@@ -155,10 +155,26 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          ChatGPT Next
+          FreeGPT
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          <b>
+        <a href="https://t.me/AI_News_CN" target="_blank">
+          TG频道
+        </a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="https://pd.qq.com/s/bx1en54s9" target="_blank">
+          QQ频道
+        </a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="https://flowus.cn/share/11ac02de-b6e4-4328-abcf-11160870d7b7" target="_blank">
+          使用说明
+        </a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="https://status.netfly.top" target="_blank">
+          状态页
+        </a>
+          </b>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
