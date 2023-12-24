@@ -197,9 +197,9 @@ export function SideBar(props: { className?: string }) {
         />
         <IconButton
           icon={<PluginIcon />}
-          text={付费版}
+          text={shouldNarrow ? undefined : Locale.Plugin.Name}
           className={styles["sidebar-bar-button"]}
-          onClick={() => {window.open("https://www.example.com");}
+          onClick={() => showToast(Locale.WIP)}
           shadow
         />
       </div>
