@@ -175,10 +175,12 @@ export function SideBar(props: { className?: string }) {
           状态页
         </a>
          &nbsp;&nbsp;&nbsp;
-        <a href="https://api.netfly.top" target="_blank">
+        <a href="https://api.netfly.top" target="_blank" style={{ color: "red" }}>
           <font color="red">付费版</font>
         </a>
           </b>
+          <br />
+          有兴趣付费使用gpt-4？点击上方付费版
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
