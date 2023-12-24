@@ -174,10 +174,6 @@ export function SideBar(props: { className?: string }) {
         <a href="https://status.netfly.top" target="_blank">
           状态页
         </a>
-         &nbsp;&nbsp;&nbsp;
-        <a href="https://api.netfly.top" target="_blank" style={{ color: "red" }}>
-          付费版
-        </a>
           </b>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
