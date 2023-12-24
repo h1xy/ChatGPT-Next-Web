@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请关注TG频道 **[ChatGPT新闻聚合](https://t.me/AI_News_CN)** 或 **[QQ频道](https://pd.qq.com/s/bx1en54s9)** 获取置顶最新密码。前往[登录](/#/auth)页或点击左下角[设置](/#/settings)按钮输入密码即可解锁使用\n\n常见问题与使用说明：**[点击查看](https://flowus.cn/share/11ac02de-b6e4-4328-abcf-11160870d7b7)**\n\n![QQ群]( /qq.jpg)![红包]( /redbag.jpg)",
+      : "访问密码不正确或为空，请关注TG频道 **[ChatGPT新闻聚合](https://t.me/AI_News_CN)** 或 **[QQ频道](https://pd.qq.com/s/bx1en54s9)** 获取置顶最新密码。前往[登录](/#/auth)页或点击左下角[设置](/#/settings)按钮输入密码即可解锁使用\n\n常见问题与使用说明：**[点击查看](https://flowus.cn/share/11ac02de-b6e4-4328-abcf-11160870d7b7)**\n\n现已推出**[付费版](https://api.g4f.icu)**\n\n![QQ群]( /qq.jpg)![红包]( /redbag.jpg)",
   },
   Auth: {
     Title: "需要密码",
