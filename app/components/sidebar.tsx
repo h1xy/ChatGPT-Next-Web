@@ -174,7 +174,13 @@ export function SideBar(props: { className?: string }) {
         <a href="https://status.netfly.top" target="_blank">
           状态页
         </a>
+         &nbsp;&nbsp;&nbsp;
+        <a href="https://api.netfly.top" target="_blank">
+          <font color="red">付费版</font>
+        </a>
           </b>
+          <br>
+          有兴趣付费使用gpt-4？点击上方付费版
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -197,9 +203,9 @@ export function SideBar(props: { className?: string }) {
         />
         <IconButton
           icon={<PluginIcon />}
-          text={shouldNarrow ? undefined : Locale.Plugin.Name}
+          text={付费版}
           className={styles["sidebar-bar-button"]}
-          onClick={() => showToast(Locale.WIP)}
+          onClick={() => {window.open("https://www.example.com");}
           shadow
         />
       </div>
