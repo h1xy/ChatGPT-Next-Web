@@ -175,7 +175,7 @@ export function SideBar(props: { className?: string }) {
           状态页
         </a>
         &nbsp;&nbsp;&nbsp;
-        <a href="https://api.g4f.icu" target="_blank" className="red-text">
+        <a href="https://api.g4f.icu" target="_blank">
           付费版
         </a>
           </b>
