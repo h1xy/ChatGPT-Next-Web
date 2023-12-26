@@ -201,7 +201,9 @@ export function SideBar(props: { className?: string }) {
           className={styles["sidebar-bar-button"]}
           onClick={() => window.open("https://api.g4f.icu", "_blank")}
          shadow
-        />
+        >
+         <span style={{ color: 'red', fontWeight: 'bold' }}>付费版</span>
+        </IconButton>
       </div>
 
       <div
