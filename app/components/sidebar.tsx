@@ -196,14 +196,13 @@ export function SideBar(props: { className?: string }) {
           shadow
         />
         <IconButton
+          children={<span style={{ color: 'red', fontWeight: 'bold' }}>付费版</span>}
           icon={<PluginIcon />}
           text={shouldNarrow ? undefined : "付费版"}
           className={styles["sidebar-bar-button"]}
-          onClick={() => window.open("https://api.g4f.icu", "_blank")}
-         shadow
-        >
-         <span style={{ color: 'red', fontWeight: 'bold' }}>付费版</span>
-        </IconButton>
+          onClick={() => window.open("https://www.example.com", "_blank")}
+          shadow
+        />
       </div>
 
       <div
