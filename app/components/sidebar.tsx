@@ -197,8 +197,8 @@ export function SideBar(props: { className?: string }) {
         />
         <IconButton
           icon={<PluginIcon />}
-          text={shouldNarrow ? undefined : <span style={{ color: 'red', fontWeight: 'bold' }}>付费版</span>}
-          className={styles["sidebar-bar-button"]}
+          text={shouldNarrow ? undefined : "付费版"}
+          className={`${styles["sidebar-bar-button"]} red-bold-text`}
           onClick={() => window.open("https://www.example.com", "_blank")}
           shadow
         />
