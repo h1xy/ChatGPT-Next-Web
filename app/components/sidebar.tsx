@@ -174,10 +174,8 @@ export function SideBar(props: { className?: string }) {
         <a href="https://status.netfly.top" target="_blank">
           状态页
         </a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="https://api.g4f.icu" target="_blank">
-          付费版
-        </a>
+          <br />
+          <span style={{ color: 'red' }}>听说有一个每次2分钱就能稳定用GPT-4的地方😍 ↘️</span>
           </b>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
