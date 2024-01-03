@@ -175,7 +175,7 @@ export function SideBar(props: { className?: string }) {
           状态页
         </a>
           <br /><br />
-          <span style={{ color: 'red' }}>听说这里每次2分钱就能稳定用GPT-4😍⬇️</span>
+          <span style={{ color: 'red' }}>😍听说这里每次2分钱就能稳定用GPT-4⬇️⬇️</span>
           </b>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
