@@ -155,10 +155,28 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          NextChat
+          FreeGPT
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          <b>
+        <a href="https://t.me/AI_News_CN" target="_blank">
+          TG频道
+        </a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="https://pd.qq.com/s/bx1en54s9" target="_blank">
+          QQ频道
+        </a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="https://flowus.cn/share/11ac02de-b6e4-4328-abcf-11160870d7b7" target="_blank">
+          使用说明
+        </a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="https://status.netfly.top" target="_blank">
+          状态页
+        </a>
+          <br /><br />
+          <span style={{ color: 'red' }}>😍听说这里每次2分钱就能稳定用GPT-4 ⬇️⬇️</span>
+          </b>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -181,9 +199,9 @@ export function SideBar(props: { className?: string }) {
         />
         <IconButton
           icon={<PluginIcon />}
-          text={shouldNarrow ? undefined : Locale.Plugin.Name}
+          text={shouldNarrow ? undefined : "付费版"}
           className={styles["sidebar-bar-button"]}
-          onClick={() => showToast(Locale.WIP)}
+          onClick={() => window.open("https://api.g4f.icu", "_blank")}
           shadow
         />
       </div>
