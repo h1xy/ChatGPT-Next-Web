@@ -8,12 +8,12 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请关注TG频道 **[ChatGPT新闻聚合](https://t.me/AI_News_CN)** 或 **[QQ频道](https://pd.qq.com/s/bx1en54s9)** 获取置顶最新密码。前往[登录](/#/auth)页或点击左下角[设置](/#/settings)按钮输入密码即可解锁使用\n\n常见问题与使用说明：**[点击查看](https://flowus.cn/share/11ac02de-b6e4-4328-abcf-11160870d7b7)**\n\n现已推出**[付费版](https://api.g4f.icu)**\n\n![QQ群]( /qq.jpg)![红包]( /redbag.jpg)",
+      : "❗请关注 TG 频道 **[ChatGPT 新闻聚合](https://t.me/AI_News_CN)** 或 **[QQ 频道](https://pd.qq.com/s/bx1en54s9)** 获取置顶最新密码\n🔓前往 **[登录](/#/auth)** 页输入密码\n💡常见问题与使用说明：**[点击查看](https://flowus.cn/share/11ac02de-b6e4-4328-abcf-11160870d7b7)**\n⭐如果你希望稳定使用gpt-4，请支持 **[付费版](https://api.g4f.icu)** \n\n![api](/api.png)",
   },
   Auth: {
     Title: "需要密码",
     Tips: "管理员开启了密码验证，请在下方填入访问码",
-    SubTips: "或者输入你的 OpenAI API 密钥",
+    SubTips: "或者输入你的 OpenAI 或 Google API 密钥",
     Input: "在此处填写访问码",
     Confirm: "确认",
     Later: "稍后再说",
@@ -312,6 +312,23 @@ const cn = {
           SubTitle: "选择指定的部分版本",
         },
       },
+      Google: {
+        ApiKey: {
+          Title: "接口密钥",
+          SubTitle: "使用自定义 Google AI Studio API Key 绕过密码访问限制",
+          Placeholder: "Google AI Studio API Key",
+        },
+
+        Endpoint: {
+          Title: "接口地址",
+          SubTitle: "不包含请求路径，样例：",
+        },
+
+        ApiVerion: {
+          Title: "接口版本 (gemini-pro api version)",
+          SubTitle: "选择指定的部分版本",
+        },
+      },
       CustomModel: {
         Title: "自定义模型名",
         SubTitle: "增加自定义模型可选项，使用英文逗号隔开",
@@ -342,12 +359,12 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "请关注TG频道 **[ChatGPT新闻聚合](https://t.me/AI_News_CN)** 或 **[QQ频道](https://pd.qq.com/s/bx1en54s9)** 获取置顶最新密码\n\n常见问题与使用说明：**[点击查看](https://flowus.cn/share/11ac02de-b6e4-4328-abcf-11160870d7b7)**\n\n![QQ群]( /qq.jpg)![红包]( /redbag.jpg)",
+    BotHello: "❗GPT 免费使用，请关注 TG 频道 **[ChatGPT 新闻聚合](https://t.me/AI_News_CN)** 或 **[QQ 频道](https://pd.qq.com/s/bx1en54s9)** 获取置顶最新密码。\n💡常见问题与使用说明：**[点击查看](https://flowus.cn/share/11ac02de-b6e4-4328-abcf-11160870d7b7)**\n⭐如果你希望稳定使用gpt-4，请支持 **[付费版](https://api.g4f.icu)** \n\n![api](/api.png)",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
       Topic:
-        "使用四到五个字直接返回这句话的简要主题，不要解释、不要标点、不要语气词、不要多余文本，如果没有主题，请直接返回“闲聊”",
+        "使用四到五个字直接返回这句话的简要主题，不要解释、不要标点、不要语气词、不要多余文本，不要加粗，如果没有主题，请直接返回“闲聊”",
       Summarize:
         "简要总结一下对话内容，用作后续的上下文提示 prompt，控制在 200 字以内",
     },
@@ -441,9 +458,9 @@ const cn = {
     Config: "配置",
   },
   Exporter: {
-    Description : {
-      Title: "只有清除上下文之后的消息会被展示"
-    },  
+    Description: {
+      Title: "只有清除上下文之后的消息会被展示",
+    },
     Model: "模型",
     Messages: "消息",
     Topic: "主题",
