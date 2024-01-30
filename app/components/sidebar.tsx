@@ -171,8 +171,12 @@ export function SideBar(props: { className?: string }) {
           使用说明
         </a>
         &nbsp;&nbsp;&nbsp;
-        <a href="https://status.netfly.top" target="_blank">
+        <a href="https://status.g4f.icu" target="_blank">
           状态页
+        </a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="https://link3.cc/gpt123" target="_blank">
+          导航页
         </a>
           <br /><br />
           <span style={{ color: 'red' }}>😍听说这里每次2分钱就能稳定用GPT-4 ⬇️⬇️</span>
