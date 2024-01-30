@@ -167,16 +167,16 @@ export function SideBar(props: { className?: string }) {
           QQ频道
         </a>
         &nbsp;&nbsp;&nbsp;
-        <a href="https://flowus.cn/share/11ac02de-b6e4-4328-abcf-11160870d7b7" target="_blank">
-          使用说明
+        <a href="https://link3.cc/gpt123" target="_blank">
+          导航页
         </a>
         &nbsp;&nbsp;&nbsp;
         <a href="https://status.g4f.icu" target="_blank">
           状态页
         </a>
         &nbsp;&nbsp;&nbsp;
-        <a href="https://link3.cc/gpt123" target="_blank">
-          导航页
+        <a href="https://flowus.cn/share/11ac02de-b6e4-4328-abcf-11160870d7b7" target="_blank">
+          使用说明
         </a>
           <br /><br />
           <span style={{ color: 'red' }}>😍听说这里每次2分钱就能稳定用GPT-4 ⬇️⬇️</span>
