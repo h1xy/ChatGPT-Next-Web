@@ -200,13 +200,6 @@ export function SideBar(props: { className?: string }) {
           shadow
         />
         <IconButton
-          icon={<SettingsIcon />}
-          text={shouldNarrow ? undefined : "导航页"}
-          className={styles["sidebar-bar-button"]}
-          onClick={() => window.open("https://link3.cc/gpt123", "_blank")}
-          shadow
-        />
-        <IconButton
           icon={<PluginIcon />}
           text={shouldNarrow ? undefined : "付费版"}
           className={styles["sidebar-bar-button"]}
