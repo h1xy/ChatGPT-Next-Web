@@ -179,7 +179,7 @@ export function SideBar(props: { className?: string }) {
           使用说明
         </a>
           <br /><br />
-          <span style={{ color: 'red' }}>😍听说这里每次2分钱就能稳定用GPT-4 ⬇️⬇️</span>
+          <span style={{ color: 'red' }}>🆓本站免费试用，关注TG/QQ不失联<br />❗如返回大量HTML代码，刷新页面<br />ℹ️如返回单行报错，重试提问<br />⭐如果你希望稳定使用gpt-4等高级模型，请支持<a href="https://api.g4f.icu" target="_blank">付费版</a></span>
           </b>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
