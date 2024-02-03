@@ -178,7 +178,7 @@ export function SideBar(props: { className?: string }) {
           使用说明
         </a>
           <br /><br />
-          <span style={{ color: 'red' }}>1️⃣本站免费试用，关注TG/QQ不失联<br />2️⃣如返回大量HTML代码，刷新页面<br />3️⃣如返回单行报错，重试提问<br />4️⃣<b>如希望稳定用gpt-4等高级模型请支持<a href="https://api.g4f.icu" target="_blank">付费版</a></b>></></span>
+          <span style={{ color: 'red' }}>1️⃣本站免费试用，关注TG/QQ不失联<br />2️⃣如返回大量HTML代码，刷新页面<br />3️⃣如返回单行报错，重试提问<br />4️⃣<b>如希望稳定用gpt-4等高级模型请支持<a href="https://api.g4f.icu" target="_blank">付费版</a></b></span>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
