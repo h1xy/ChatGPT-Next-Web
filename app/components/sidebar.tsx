@@ -158,7 +158,7 @@ export function SideBar(props: { className?: string }) {
           FreeGPT
         </div>
         <div className={styles["sidebar-sub-title"]}>
-        <a href="https://t.me/AI_News_CN" target="_blank">
+        <b><a href="https://t.me/AI_News_CN" target="_blank">
           TG频道
         </a>
         &nbsp;&nbsp;&nbsp;
@@ -176,9 +176,9 @@ export function SideBar(props: { className?: string }) {
         &nbsp;&nbsp;&nbsp;
         <a href="https://flowus.cn/share/11ac02de-b6e4-4328-abcf-11160870d7b7" target="_blank">
           使用说明
-        </a>
+        </a></b>
           <br /><br />
-          <span style={{ color: 'red' }}>1️⃣本站免费试用，关注TG/QQ不失联<br />2️⃣如返回大量HTML代码，刷新页面<br />3️⃣如返回单行报错，重试提问<br />4️⃣<b>如希望稳定用gpt-4等高级模型请支持<a href="https://api.g4f.icu" target="_blank">付费版</a></b></span>
+          <span style={{ color: 'red' }}>1️⃣本站免费使用，关注TG/QQ不失联<br />2️⃣如返回大量HTML代码，刷新页面<br />3️⃣如返回单行报错，重试提问<br />4️⃣<b>如希望稳定用gpt-4等高级模型请支持<a href="https://api.g4f.icu" target="_blank">付费版</a></b></span>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -200,6 +200,12 @@ export function SideBar(props: { className?: string }) {
           shadow
         />
         <IconButton
+          icon={<SettingsIcon />}
+          text={shouldNarrow ? undefined : "导航页"}
+          className={styles["sidebar-bar-button"]}
+          onClick={() => window.open("https://link3.cc/gpt123", "_blank")}
+          shadow
+        />        <IconButton
           icon={<PluginIcon />}
           text={shouldNarrow ? undefined : "付费版"}
           className={styles["sidebar-bar-button"]}
