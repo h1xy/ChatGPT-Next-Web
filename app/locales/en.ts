@@ -10,7 +10,7 @@ const en: LocaleType = {
   Error: {
     Unauthorized: isApp
       ? "Invalid API Key, please check it in [Settings](/#/settings) page."
-      : "❗Plase subscribe telegram channel **[ChatGPT/AI News](https://t.me/AI_News_CN)** to obtain login password.\n🔓Go to **[Auth](/#/auth)** page to input password\n💡FAQ：**[click me](https://flowus.cn/share/11ac02de-b6e4-4328-abcf-11160870d7b7)**\n⭐If you wish to use gpt-4 and other advance model, please go to **[Paid version](https://api.g4f.icu)**",
+      : "❗Plase subscribe telegram channel **[ChatGPT/AI News](https://t.me/AI_News_CN)** to obtain password pinned on the top.\n🔓Go to **[Auth](/#/auth)** page to input password.",
   },
   Auth: {
     Title: "Need Access Code",
@@ -365,7 +365,7 @@ const en: LocaleType = {
   },
   Store: {
     DefaultTopic: "New Conversation",
-    BotHello: "❗Plase subscribe telegram channel **[ChatGPT/AI News](https://t.me/AI_News_CN)** to obtain login password.\n💡FAQ：**[click me](https://flowus.cn/share/11ac02de-b6e4-4328-abcf-11160870d7b7)**\n⭐If you wish to use gpt-4 and other advance model, please go to **[Paid version](https://api.g4f.icu)**",
+    BotHello: "❗Plase subscribe telegram channel **[ChatGPT/AI News](https://t.me/AI_News_CN)** to obtain password pinned at the top.",
     Error: "Something went wrong, please try again later.",
     Prompt: {
       History: (content: string) =>
