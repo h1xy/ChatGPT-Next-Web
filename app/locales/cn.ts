@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "❗请关注 TG 频道 **[ChatGPT 新闻聚合](https://t.me/AI_News_CN)** 或 **[QQ 频道](https://pd.qq.com/s/bx1en54s9)** 获取置顶最新密码\n🔓前往 **[登录](/#/auth)** 页输入密码\n💡常见问题与使用说明：**[点击查看](https://flowus.cn/share/11ac02de-b6e4-4328-abcf-11160870d7b7)**\n⭐如果你希望稳定使用gpt-4等高级模型，请支持 **[付费版](https://api.g4f.icu)** \n\n![api](/api.png)",
+      : "1️⃣请关注 TG 频道 **[ChatGPT 新闻聚合](https://t.me/AI_News_CN)** 或 **[QQ 频道](https://pd.qq.com/s/bx1en54s9)** 获取置顶最新密码\n2️⃣前往 **[登录](/#/auth)** 页输入密码\n3️⃣如返回大量HTML代码，请刷新页面\n4️⃣如回答失败请重试提问，将自动轮询其他渠道\n5️⃣现已推出 **[付费版api.g4f.icu](https://api.g4f.icu)** 一站式服务支持Claude-3/GPTs/联网/文件上传分析/MJ绘图等\n\n![api](/api.png)",
   },
   Auth: {
     Title: "需要密码",
@@ -360,7 +360,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "❗GPT 免费使用，请关注 TG 频道 **[ChatGPT 新闻聚合](https://t.me/AI_News_CN)** 或 **[QQ 频道](https://pd.qq.com/s/bx1en54s9)** 获取置顶最新密码。\n💡常见问题与使用说明：**[点击查看](https://flowus.cn/share/11ac02de-b6e4-4328-abcf-11160870d7b7)**\n⭐如果你希望稳定使用gpt-4等高级模型，请支持 **[付费版](https://api.g4f.icu)** \n\n![api](/api.png)",
+    BotHello: "1️⃣请关注 TG 频道 **[ChatGPT 新闻聚合](https://t.me/AI_News_CN)** 或 **[QQ 频道](https://pd.qq.com/s/bx1en54s9)** 获取置顶最新密码\n2️⃣前往 **[登录](/#/auth)** 页输入密码\n3️⃣如返回大量HTML代码，请刷新页面\n4️⃣如回答失败请重试提问，将自动轮询其他渠道\n5️⃣现已推出 **[付费版api.g4f.icu](https://api.g4f.icu)** 一站式服务支持Claude-3/GPTs/联网/文件上传分析/MJ绘图等\n\n![api](/api.png)",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
