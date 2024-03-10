@@ -178,7 +178,7 @@ export function SideBar(props: { className?: string }) {
           使用说明
         </a></b>
           <br /><br />
-          <span style={{ color: 'red' }}>1️⃣本站免费使用，关注TG/QQ不失联<br />2️⃣如返回大量HTML代码，刷新页面<br />3️⃣如返回单行报错，重试提问<br />4️⃣<b>如希望稳定用gpt-4等高级模型请支持<a href="https://api.g4f.icu" target="_blank">付费版</a></b></span>
+          <span style={{ color: 'red' }}>1️⃣本站免费使用，关注TG/QQ不失联<br />2️⃣如返回大量HTML代码，请刷新页面<br />3️⃣如回答失败，请重试提问自动轮询其他渠道<br />4️⃣<b>现已推出<a href="https://api.g4f.icu" target="_blank">付费版</a>一站式服务支持Claude-3/GPTs/联网/文件上传分析/MJ绘图等</b></span>
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -201,9 +201,9 @@ export function SideBar(props: { className?: string }) {
         />
         <IconButton
           icon={<SettingsIcon />}
-          text={shouldNarrow ? undefined : "导航页"}
+          text={shouldNarrow ? undefined : "状态页"}
           className={styles["sidebar-bar-button"]}
-          onClick={() => window.open("https://link3.cc/gpt123", "_blank")}
+          onClick={() => window.open("https://status.g4f.icu", "_blank")}
           shadow
         />        <IconButton
           icon={<PluginIcon />}
