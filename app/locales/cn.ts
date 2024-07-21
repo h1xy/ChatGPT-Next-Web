@@ -377,7 +377,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "1️⃣请关注 TG 频道 **[ChatGPT 新闻聚合](https://t.me/AI_News_CN)** 或 **[QQ 频道](https://pd.qq.com/s/bx1en54s9)** 获取置顶最新密码\n2️⃣前往 **[登录](/#/auth)** 页输入密码\n3️⃣如返回大量HTML代码，请刷新页面\n4️⃣如回答失败请重试提问，将自动轮询其他渠道\n5️⃣现已推出 **[付费版api.g4f.icu](https://api.g4f.icu)** 一站式服务支持Claude-3/GPTs/联网/文件上传分析/MJ绘图等\n\n![api](/api.png)",
+    BotHello: "有什么我可以帮您？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
