@@ -377,7 +377,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "1️⃣本站免费使用，关注TG 频道 **[ChatGPT 新闻聚合](https://t.me/AI_News_CN)** 或 **[QQ 频道](https://pd.qq.com/s/bx1en54s9)**不失联\n2️⃣如返回大量HTML代码，请刷新页面\n3️⃣如回答失败，请重试提问自动轮询其他渠道\n4️⃣现已推出 **[付费版](https://api.g4f.icu)** 一站式服务支持Claude-3/GPTs/联网/文件上传分析/MJ绘图",
+    BotHello: "1️⃣本站免费使用，关注TG 频道 **[ChatGPT 新闻聚合](https://t.me/AI_News_CN)** 或 **[QQ 频道](https://pd.qq.com/s/bx1en54s9)** 不失联\n2️⃣如返回大量HTML代码，请刷新页面\n3️⃣如回答失败，请重试提问自动轮询其他渠道\n4️⃣现已推出 **[付费版](https://api.g4f.icu)** 一站式服务支持Claude-3/GPTs/联网/文件上传分析/MJ绘图",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
