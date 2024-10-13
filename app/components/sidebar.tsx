@@ -178,7 +178,7 @@ export function SideBar(props: { className?: string }) {
           使用说明
         </a></b>
           <br /><br />
-          1️⃣本站免费使用，关注TG/QQ不失联<br />2️⃣如返回大量HTML代码，请刷新页面<br />3️⃣如回答失败，请重试提问自动轮询其他渠道<br />4️⃣<span style={{ color: 'red' }}><b>现已推出&nbsp;<a href="https://api.g4f.icu" target="_blank">付费版</a>&nbsp;一站式服务支持Claude-3/GPTs/联网/文件上传分析/MJ绘图等</b></span>
+          1️⃣本站免费使用，关注TG/QQ不失联<br />2️⃣如返回大量HTML代码，请刷新页面<br />3️⃣如回答失败，请重试提问自动轮询其他渠道<br />4️⃣<span style={{ color: 'red' }}><b>现已推出&nbsp;<a href="https://api.g4f.icu" target="_blank">付费版</a>&nbsp;一站式服务支持Claude-3/GPTs/联网/文件上传分析/MJ绘图等</b></span><br />5️⃣Please donate if this site have helped you, thanks! USDT TRC20: TZE7j16U6mRSCPfg9Pu5KTRvT8UYKTWs5C
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -200,16 +200,10 @@ export function SideBar(props: { className?: string }) {
           shadow
         />
         <IconButton
-          icon={<SettingsIcon />}
-          text={shouldNarrow ? undefined : "状态页"}
-          className={styles["sidebar-bar-button"]}
-          onClick={() => window.open("https://status.g4f.icu", "_blank")}
-          shadow
-        />        <IconButton
           icon={<PluginIcon />}
-          text={shouldNarrow ? undefined : "付费版"}
+          text={shouldNarrow ? undefined : "api.g4f.icu"}
           className={styles["sidebar-bar-button"]}
-          onClick={() => window.open("https://api.g4f.icu", "_blank")}
+          onClick={() => window.open("https://api.g4f.icu/about", "_blank")}
           shadow
         />
       </div>
