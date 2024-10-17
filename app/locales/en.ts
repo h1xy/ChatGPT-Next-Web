@@ -10,7 +10,7 @@ const en: LocaleType = {
   Error: {
     Unauthorized: isApp
       ? "Invalid API Key, please check it in [Settings](/#/settings) page."
-      : "This site is free to use. Please donate if the site have helped you.<br>Donate by USDT TRC20：TZE7j16U6mRSCPfg9Pu5KTRvT8UYKTWs5C"<br>We also provide <a href="https://api.g4f.icu/about" target="_blank">AI API gateway</a> support OpenAI/GPTs/Claude/Midjourney/file upload. Cheap rate and paid by USDT!",
+      : "This site is free to use. If it have helped you consider to donate by USDT TRC20: TZE7j16U6mRSCPfg9Pu5KTRvT8UYKTWs5C\nWe also provide [AI API gateway](https://api.g4f.icu/about) support OpenAI/GPTs/Claude/Midjourney/file upload. Cheap rate and paid by USDT!",
   },
   Auth: {
     Title: "Need Access Code",
@@ -383,7 +383,7 @@ const en: LocaleType = {
   },
   Store: {
     DefaultTopic: "New Conversation",
-    BotHello: "This site is free to use. Please donate if the site have helped you.<br>Donate by USDT TRC20：TZE7j16U6mRSCPfg9Pu5KTRvT8UYKTWs5C"<br>We also provide <a href="https://api.g4f.icu/about" target="_blank">AI API gateway</a> support OpenAI/GPTs/Claude/Midjourney/file upload. Cheap rate and paid by USDT!",
+    BotHello: "This site is free to use. If it have helped you consider to donate by USDT TRC20: TZE7j16U6mRSCPfg9Pu5KTRvT8UYKTWs5C\nWe also provide [AI API gateway](https://api.g4f.icu/about) support OpenAI/GPTs/Claude/Midjourney/file upload. Cheap rate and paid by USDT!",
     Error: "Something went wrong, please try again later.",
     Prompt: {
       History: (content: string) =>
