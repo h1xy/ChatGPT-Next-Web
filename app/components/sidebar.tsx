@@ -160,7 +160,6 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-sub-title"]}>
         <b><a href="https://t.me/AI_News_CN" target="_blank">
           TG频道
-          Telegram
         </a>
         &nbsp;&nbsp;&nbsp;
         <a href="https://pd.qq.com/s/bx1en54s9" target="_blank">
@@ -175,11 +174,11 @@ export function SideBar(props: { className?: string }) {
           状态页
         </a>
         &nbsp;&nbsp;&nbsp;
-        <a href="https://flowus.cn/share/11ac02de-b6e4-4328-abcf-11160870d7b7" target="_blank">
+        <a href="/donate.txt" target="_blank">
           Donate 捐助
         </a></b>
           <br /><br />
-          1️⃣本站免费使用，关注TG/QQ不失联<br />2️⃣如返回大量HTML代码，请刷新页面<br />3️⃣如回答失败，请重试提问自动轮询其他渠道<br />4️⃣<span style={{ color: 'red' }}><b>现已推出&nbsp;<a href="https://api.g4f.icu" target="_blank">付费版</a>&nbsp;一站式服务支持Claude-3/GPTs/联网/文件上传分析/MJ绘图等</b></span><br />5️⃣Please <span style={{ color: 'red' }}><b><a href="https://free.netfly.top/donate.txt" target="_blank">donate</a></b></span> if this site have helped you, thanks!
+          1️⃣本站免费使用，关注TG/QQ不失联<br />2️⃣如返回大量HTML代码，请刷新页面<br />3️⃣如回答失败，请重试提问自动轮询其他渠道<br />4️⃣<span style={{ color: 'red' }}><b>现已推出&nbsp;<a href="https://api.g4f.icu" target="_blank">付费版</a>&nbsp;一站式服务支持Claude-3/GPTs/联网/文件上传分析/MJ绘图等</b></span><br />5️⃣Please <a href="/donate.txt" target="_blank">donate</a> if this site have helped you, thanks!
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
