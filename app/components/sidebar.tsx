@@ -201,14 +201,14 @@ export function SideBar(props: { className?: string }) {
         />
         <IconButton
           icon={<PluginIcon />}
-          text={shouldNarrow ? undefined : "AI API中转"}
+          text={shouldNarrow ? undefined : "Donate"}
           className={styles["sidebar-bar-button"]}
-          onClick={() => window.open("https://api.g4f.icu/about", "_blank")}
+          onClick={() => window.open("/donate.txt", "_blank")}
           shadow
         />
         <IconButton
           icon={<PluginIcon />}
-          text={shouldNarrow ? undefined : "AI API Gateway"}
+          text={shouldNarrow ? undefined : "Paid API Gateway"}
           className={styles["sidebar-bar-button"]}
           onClick={() => window.open("https://api.g4f.icu/about", "_blank")}
           shadow
