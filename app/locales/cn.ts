@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "1️⃣请关注 TG 频道 **[ChatGPT 新闻聚合](https://t.me/AI_News_CN)** 或 **[QQ 频道](https://pd.qq.com/s/bx1en54s9)** 不失联\n2️⃣如返回大量HTML代码，请刷新页面\n3️⃣如回答失败请重试提问，将自动轮询其他渠道\n4️⃣现已推出 **[付费版AI API中转](https://api.g4f.icu)** 一站式服务支持OpenAI/GPTs/Claude/联网/AI绘图/文件上传等\n5️⃣如果这个网站有帮到你，请捐助支持我们\n\n![api](/wxdonate.jpg)",
+      : "1️⃣请关注 TG 频道 **[ChatGPT 新闻聚合](https://t.me/AI_News_CN)** 不失联\n2️⃣如返回大量HTML代码，请刷新页面\n3️⃣如回答失败请重试提问，将自动轮询其他渠道\n4️⃣现已推出 **[付费版AI API中转](https://api.g4f.icu)** 一站式服务支持OpenAI/GPTs/Claude/联网/AI绘图/文件上传等\n5️⃣如果这个网站有帮到你，请捐助支持我们\n\n![api](/wxdonate.jpg)",
   },
   Auth: {
     Title: "需要密码",
@@ -377,7 +377,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "1️⃣请关注 TG 频道 **[ChatGPT 新闻聚合](https://t.me/AI_News_CN)** 或 **[QQ 频道](https://pd.qq.com/s/bx1en54s9)** 不失联\n2️⃣如返回大量HTML代码，请刷新页面\n3️⃣如回答失败请重试提问，将自动轮询其他渠道\n4️⃣现已推出 **[付费版AI API中转](https://api.g4f.icu)** 一站式服务支持OpenAI/GPTs/Claude/联网/AI绘图/文件上传等\n5️⃣如果这个网站有帮到你，请捐助支持我们\n![donate](/wxdonate.jpg)",
+    BotHello: "1️⃣请关注 TG 频道 **[ChatGPT 新闻聚合](https://t.me/+t8i3SXepQ5Q2YTk5)** 不失联\n2️⃣如返回大量HTML代码，请刷新页面\n3️⃣如回答失败请重试提问，将自动轮询其他渠道\n4️⃣现已推出 **[付费版AI API中转](https://api.oaibest.com)** 一站式服务支持OpenAI/GPTs/Claude/联网/AI绘图/文件上传等\n5️⃣如果这个网站有帮到你，请捐助支持我们\n![donate](/wxdonate.jpg)",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
