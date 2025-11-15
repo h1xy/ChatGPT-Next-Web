@@ -10,7 +10,7 @@ const en: LocaleType = {
   Error: {
     Unauthorized: isApp
       ? "Invalid API Key, please check it in [Settings](/#/settings) page."
-      : "This site is free to use. If it have helped you consider to donate by USDT TRC20: TZE7j16U6mRSCPfg9Pu5KTRvT8UYKTWs5C\n\nWe also provide [AI API gateway](https://api.g4f.icu/about) support OpenAI/GPTs/Claude/Midjourney/file upload. Cheap rate and paid by USDT!",
+      : "This site is free to use. Try&nbsp;<a href="https://api.oaibest.com" target="_blank">api.oaibest.com</a>&nbsp;to access 340+ model including OpenAI, Claude, Gemini, Deepseek, Grok, Midjourney and file upload. Cheap rate, support Strip and USDT payment!",
   },
   Auth: {
     Title: "Need Access Code",
